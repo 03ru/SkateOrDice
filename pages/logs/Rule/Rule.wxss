@@ -1,0 +1,39 @@
+/* pages/logs/Rule/Rule.wxss */
+
+.index{
+   padding: 5rpx  40rpx 0rpx 40rpx;
+   font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+.index0{
+   padding: 5rpx  0rpx 5rpx 0rpx;
+}
+.index-hd {
+  padding: 80rpx 0 0 0;
+  text-align: center;
+}
+.index-logo {
+  width: 150rpx;
+  height: 150rpx;
+}
+.index-logo1 {
+  width: 90rpx;
+  height: 90rpx;
+}
+.index-desc {
+  margin-top: 5rpx;
+  color: #888888;
+  font-size: 28rpx;
+  text-align: center
+}
+.index-desc0{
+  
+  color: #292929;
+  font-size: 28rpx;
+  text-align: center
+}
+.ru {
+  margin-top: 20rpx;
+  color: #ebebeb;
+  font-size: 28rpx;
+  text-align: center
+}

@@ -1,0 +1,21 @@
+<view class='index'>
+    <view >
+        <view class='index-hd'>
+              <image class="index-logo" src="/images/bgima.png"></image>
+          </view>
+        <text class='index-desc'>关于的关于 :</text>
+        <view><text class="index-desc">SkateOrDice1.1 </text></view>
+    </view>
+      <view class="index">
+    <view class="index">
+      <view class="index1">      
+      <text class='index-desc0'>
+      不知道SkateOrDice由来的朋友，可以去观看一下berrics滑板网站所推出的同名滑板节目。每一期摄影师Yoon都会邀请一些职业滑手来参加这个节目(就是赌博嘛，虽然大多数情况是Yoon输光了钱)。国内很多人看过这个节目，但是骰子很难购买到，而且也不方便保存。所以有了这一款SkateOrDice，希望大家喜欢。觉得好用的朋友请点击下面的按钮转发分享一下。
+      </text>
+      </view>
+      <view class='index-hd' >
+      <button  type='primary' size='default' open-type='share'>转发</button>
+      </view>
+    </view>
+  </view>
+</view>

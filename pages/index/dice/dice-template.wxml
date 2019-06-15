@@ -1,0 +1,4 @@
+<template name="dice-template">
+  <image id="border" animation="{{anim}}" style="width: 145rpx; height: 145rpx; mode='aspectFit' "  src="{{src}}">
+</image>
+</template>

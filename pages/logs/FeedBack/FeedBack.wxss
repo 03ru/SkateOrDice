@@ -1,0 +1,6 @@
+/* pages/logs/FeedBack/FeedBack.wxss */
+@import "/pages/logs/Rule/Rule.wxss";
+.index01{
+  padding: 350rpx  0rpx 0rpx 0rpx;
+  text-align: center;
+}

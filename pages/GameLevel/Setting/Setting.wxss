@@ -1,0 +1,25 @@
+/* pages/logs/Setting/Setting.wxss */
+@import "/pages/logs/Rule/Rule.wxss";
+.weui-check__label:active {
+  background-color: #ECECEC;
+}
+
+.weui-cells_after-title {
+  margin-top: 2rpx;
+  padding-top: 20rpx
+
+}
+.weui-cell__bd {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  color: black;
+  padding-top: 50rpx;
+}
+.Set{
+  color: rgb(82, 64, 64)
+}
+.index01{
+     padding: 30rpx  0rpx 5rpx 0rpx;
+     color: rgb(59, 59, 59)
+}

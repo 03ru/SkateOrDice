@@ -1,0 +1,13 @@
+<view class='index'>
+    <view >
+        <view class='index-hd'>
+              <image class="index-logo" src="/images/bgima.png"></image>
+          </view>
+        <text class='index-desc'>当你发现该程序有问题，或者你有更好的建议时 :</text>
+        <view><text class="index-desc0">点击气泡icon,与我联系</text></view>
+      </view>
+      
+</view>
+      <view class="index01">
+        <contact-button size="100" session-from="weapp"></contact-button>
+      </view>

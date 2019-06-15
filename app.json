@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/GameLevel/Setting/Setting",
+    "pages/logs/Rule/Rule",
+    "pages/logs/FeedBack/FeedBack",
+    "pages/logs/About/About"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigasdfsdfsdfsfddsfsdfsdfsdfsext": "WeChat",
+    "navigationBarTextStyle":"black"
+  } ,
+   "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/GameLevel/Setting/Setting",
+        "iconPath": "images/logo_Set.png",
+        "selectedIconPath": "images/logo_Set_HL.png",
+        "text": "GameLevel"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/logo_Game.png",
+        "selectedIconPath":"images/logo_Game_HL.png",
+        "text": "Game"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/logo_About.png",
+        "selectedIconPath": "images/logo_About_HL.png",
+        "text": "About"
+      }
+    ]
+  }
+}

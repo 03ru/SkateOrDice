@@ -1,0 +1,61 @@
+@import "dice/dice-template.wxss";
+/*@import "dice/dice-template.wxss";*/
+#header{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height:150rpx;
+    top:5%;
+    left: 50%;
+    margin-left: -300rpx;
+    font-size: 80rpx;
+    width: 600rpx;
+    height:150rpx;
+    text-align: center;
+}
+
+.btn{
+    width:150rpx;
+    height: 150rpx;
+    z-index: 1;
+}
+
+#dice-zone{
+    position: absolute;
+    width: 750rpx;
+    height: 700rpx;
+    top:10%;
+    left: 50%;
+    margin-left: -375rpx;
+}
+
+#btn-roll-container{
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    margin-left: -75rpx;
+    width: 150rpx;
+    height: 150rpx;
+}
+#btn-roll{
+  color:  rgb(22, 18, 18);
+    display: block;
+    text-align: center;
+    width: 150rpx;
+    height: 150rpx;
+    line-height: 150rpx;
+    font-size: 50rpx;
+    border: 2px solid rgb(22, 18, 18);
+    border-radius: 50rpx;
+}
+#btn-roll:active{
+  color:  rgb(22, 18, 18);
+    position: relative;
+    width: 120rpx;
+    height:120rpx;
+    top:15rpx;
+    left:15rpx;
+    font-size: 40rpx;
+    line-height: 120rpx;
+}

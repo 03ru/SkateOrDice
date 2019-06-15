@@ -1,0 +1,24 @@
+<view class='index'>
+    <view >
+        <view class='index-hd'>
+              <image class="index-logo" src="/images/bgima.png"></image>
+          </view>
+        <text class='index-desc'>难易度设置/Setting :</text>
+        <view><text class="index-desc"></text></view>
+                <view class="weui-cells_after-title">
+        <radio-group class = "radio-group" bindchange="radioChange">
+          <label class="weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
+
+            <view class = "weui-cell__bd" color = 'red'>
+                <radio value="{{item.value}}" checked="true"/>
+              {{item.name}}
+              </view>
+              <view><text class="Set">{{item.Set}}</text></view>
+          </label>
+        </radio-group>
+      </view>
+    </view>
+    <view class='index01'>
+    <text class="index-desc">降低难度并不能解决问题，反而会降低游戏的可能性。这只是一个娱乐方式，望努力提高滑板实力。</text>
+    </view>
+</view>

@@ -1,0 +1,28 @@
+<view class='index'>
+    <view >
+        <view class='index-hd'>
+              <image class="index-logo" src="/images/bgima.png"></image>
+          </view>
+        <text class='index-desc'>How to Play :</text>
+    </view>
+      <view >
+                      <text class='index-desc0'>摇一摇手机、或点击屏幕上的Tap按钮，骰子滚入屏幕，查看并根据要求做相应的Trick。</text>
+        </view>
+      <view >
+          <text class='index-desc'>当骰子出现以下情况，应当如何做:</text>
+        </view>
+
+    <view  wx:for-items="{{list}}" wx:key="{{item.id}}">
+      <view class='index0'>
+          <block wx:for-items="{{item.pages}}" wx:for-item= "page" wx:key="*item">
+             <image class='index-logo1' src="{{page.src}}"></image>
+            </block>
+          <text class='index-desc0'>{{item.text}}</text>
+        </view>
+      </view>
+      <text class='index-desc'>更详细信息请自行前往各滑板资讯平台搜索查看</text>
+</view>
+       <text class="ru" style='padding: 0 210rpx 60rpx;'>Product by 03ru</text>
+
+
+

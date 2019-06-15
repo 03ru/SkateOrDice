@@ -1,0 +1,2 @@
+/* pages/logs/About/About.wxss */
+@import "/pages/logs/Rule/Rule.wxss";

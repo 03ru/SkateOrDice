@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<import src="dice/dice-template.wxml" />
+<view id="dice-zone">
+  <block wx:for="{{dicesText}}">
+    <template is="dice-template" data="{{...item}}" />
+  </block>
+</view>
+<view id="btn-roll-container" catchtap="onRollTap" hidden="{{hideBtn}}">
+  <text id="btn-roll" >Roll</text>
+</view>
